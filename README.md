@@ -119,10 +119,6 @@ To generate test image(s) for the final models, use `createImageFromH5.py`:
 python createImageFromH5.py  --h5file ./results/reconstructions/file1000000.h5
 ```
 
-## License
-
-Self-MRI is released under [MIT license](LICENSE).  
-
 ## See also
 
 [fastMRI](https://github.com/facebookresearch/fastMRI): collaborative research project from Facebook AI Research (FAIR) and NYU Langone Healt.  
