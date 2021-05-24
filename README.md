@@ -1,5 +1,28 @@
 # Self-MRI
 
+## About  
+
+### Abstract  
+
+*Magnetic resonance imaging (MRI) has long scan times
+which makes it both costly and prohibitive for some patients.
+By not sampling the entire spatial frequency both the
+scan time and the cost can be reduced. When scans are converted
+from frequency domain (k-space) to spatial domain,
+artifacts such as Shannon-Nyquist aliasing can appear due
+to this sub-sampling. Deep Neural Networks (DNN) can be
+used in a supervised setting scenario to perform an imageto-
+image reconstruction, from the sub-sampled scan to a
+full scan, but this would require ground-truth fully-sampled
+data which is expensive to obtain. Using self-supervised
+learning combined with transfer learning that this project
+is focusing on we were able to achieve 60% wall-time
+speedup for the image reconstruction process measured in
+total training time, comparing to the fastMRI benchmark,
+with matching performance on 4x-acceleration test data.  
+**Keywords�** self-supervised learning, transfer learning, spatial
+domain, frequency domain*
+
 ## Dataset
 
 Download the dataset from the [fastMRI dataset page](https://fastmri.med.nyu.edu/).  This project relies on single-coil knee dataset.
@@ -95,3 +118,30 @@ To generate test image(s) for the final models, use `createImageFromH5.py`:
 ```
 python createImageFromH5.py  --h5file ./results/reconstructions/file1000000.h5
 ```
+
+## License
+
+Self-MRI is released under [MIT license](LICENSE).  
+
+## See also
+
+[fastMRI](https://github.com/facebookresearch/fastMRI): collaborative research project from Facebook AI Research (FAIR) and NYU Langone Healt.  
+  
+[NYU Langone Health](https://fastmri.med.nyu.edu/): fastMRI dataset  
+  
+[VISSL](https://github.com/facebookresearch/vissl): Facebook AI Research (FAIR) VIsion library for state-of-the-art Self-Supervised Learning research with PyTorch  
+  
+## Citing Self-MRI
+
+If you find Self-MRI useful in your research or wish to refer to this project, please use the following BibTeX entry.
+
+```BibTeX
+@misc{gatech2021selfmri,
+  author =       {Claudiu Comsa and Yuriy Lichman and David Schmidlin and Sergei Belenki},
+  title =        {Self-MRI},
+  howpublished = {\url{https://github.com/sbelenki/Self-MRI}},
+  year =         {2021}
+}
+```
+
+
