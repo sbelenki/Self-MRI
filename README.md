@@ -20,7 +20,7 @@ is focusing on we were able to achieve 60% wall-time
 speedup for the image reconstruction process measured in
 total training time, comparing to the fastMRI benchmark,
 with matching performance on 4x-acceleration test data.  
-**Keywords�** self-supervised learning, transfer learning, spatial
+**Keywords-** self-supervised learning, transfer learning, spatial
 domain, frequency domain*
 
 ## Dataset
