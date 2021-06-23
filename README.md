@@ -27,6 +27,14 @@ domain, frequency domain*
 
 Download the dataset from the [fastMRI dataset page](https://fastmri.med.nyu.edu/).  This project relies on single-coil knee dataset.
 
+## Source Code
+
+Facebook AI Research (FAIR) fastMRI and VISSL frameworks were used in this project.  
+The modified clones of these frameworks may be accessed here:  
+[fastMRI](https://github.com/sbelenki/fastMRI)
+[VISSL](https://github.com/sbelenki/vissl)
+[Additional run_pretrained scripts](https://github.com/sbelenki/run_pretrained)
+
 ## Generating Baseline
 
 * Navigate to fastMRI directory
