@@ -1,4 +1,4 @@
-# Self-MRI: Self-Supervised Learning for Accelerated MRI Image Reconstruction
+# Self-MRI (Self-Supervised Learning for Accelerated MRI Image Reconstruction)
 
 ## About  
 
