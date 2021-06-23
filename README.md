@@ -15,8 +15,7 @@ used in a supervised setting scenario to perform an imageto-
 image reconstruction, from the sub-sampled scan to a
 full scan, but this would require ground-truth fully-sampled
 data which is expensive to obtain. Using self-supervised
-learning combined with transfer learning that this project
-is focusing on we were able to achieve 60% wall-time
+learning combined with transfer learning we were able to achieve 60% wall-time
 speedup for the image reconstruction process measured in
 total training time, comparing to the fastMRI benchmark,
 with matching performance on 4x-acceleration test data.  
