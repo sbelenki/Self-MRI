@@ -31,9 +31,9 @@ Download the dataset from the [fastMRI dataset page](https://fastmri.med.nyu.edu
 
 Facebook AI Research (FAIR) fastMRI and VISSL frameworks were used in this project.  
 The modified clones of these frameworks may be accessed here:  
-[fastMRI](https://github.com/sbelenki/fastMRI)
-[VISSL](https://github.com/sbelenki/vissl)
-[Additional run_pretrained scripts](https://github.com/sbelenki/run_pretrained)
+[fastMRI](https://github.com/sbelenki/fastMRI)  
+[VISSL](https://github.com/sbelenki/vissl)  
+[Additional run_pretrained scripts](https://github.com/sbelenki/run_pretrained)  
 
 ## Generating Baseline
 
